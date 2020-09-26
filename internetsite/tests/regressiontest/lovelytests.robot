@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Test for wait for element to be enabled
+Documentation    Basic tests for lovelysite to verify the home page and shopping cart. Also includes one failing test at the end
 Library             robotkeywords.SeleniumKeywords
 Resource            ../../pages/homepage.robot
 Resource            ../../pages/setupteardown.robot
@@ -29,7 +29,7 @@ Navigate To Lipstick Product
     Click On Home Breadcrumb Link
     Verify Home Page Logo Is Displayed
 
-Add Shes Product to Cart
+Add Shoes Product to Cart
     [Documentation]  Navigates to shoes product page
     Verify Home Page Logo Is Displayed
     Click On Shoes Product
@@ -44,8 +44,8 @@ Add Shes Product to Cart
     Click On Checkout Button
     Verify Checkout Error Is Displayed
 
-Failing Test To Verify Product
+Failing Test with invalid verification
     [Documentation]  Just to show a failing tests!
     Verify Home Page Logo Is Displayed
     Click On Lipstick Product
-    Verify Product Page Description   I'm A Lipstick
+    Verify Product Page Description   I'm A Lipstick  # this line will cause the test to fail
