@@ -21,10 +21,3 @@ Pre-requisites:
 This plugin gives syntax highlighting to the .robot files
 
 * From Settings -> Plugins, search for and install InteliBot
-
-
-
-
-
-# robotframeworkTest
-# robotframeworkTest
