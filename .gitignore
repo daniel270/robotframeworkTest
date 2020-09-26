@@ -103,3 +103,4 @@ ENV/
 /results
 /.idea
 .idea
+.DS_Store
