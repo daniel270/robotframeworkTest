@@ -1,0 +1,6 @@
+selenium
+robotframework
+pyvirtualdisplay
+pyscreenshot
+Pillow
+robotframework-selenium2library

@@ -1,0 +1,6 @@
+{
+  "implicitwait": 20,
+  "explicitwait": 20,
+  "scriptwait": 20,
+  "pageloadwait": 20
+}

@@ -1,0 +1,2 @@
+include src/keywords/config/*.json
+include src/keywords/framework/selenium/drivers/chromedriver.exe
